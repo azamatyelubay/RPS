@@ -14,6 +14,8 @@
 		29F561D9249E054F009CED1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F561D8249E054F009CED1F /* Assets.xcassets */; };
 		29F561DC249E054F009CED1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F561DA249E054F009CED1F /* LaunchScreen.storyboard */; };
 		29F561E7249E0550009CED1F /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F561E6249E0550009CED1F /* RPSTests.swift */; };
+		29F561F2249E060E009CED1F /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F561F1249E060E009CED1F /* GameState.swift */; };
+		29F561F4249E0669009CED1F /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F561F3249E0669009CED1F /* Sign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		29F561E2249E0550009CED1F /* RPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F561E6249E0550009CED1F /* RPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSTests.swift; sourceTree = "<group>"; };
 		29F561E8249E0550009CED1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F561F1249E060E009CED1F /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		29F561F3249E0669009CED1F /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				29F561D8249E054F009CED1F /* Assets.xcassets */,
 				29F561DA249E054F009CED1F /* LaunchScreen.storyboard */,
 				29F561DD249E054F009CED1F /* Info.plist */,
+				29F561F1249E060E009CED1F /* GameState.swift */,
+				29F561F3249E0669009CED1F /* Sign.swift */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -201,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F561D4249E054E009CED1F /* ViewController.swift in Sources */,
+				29F561F2249E060E009CED1F /* GameState.swift in Sources */,
+				29F561F4249E0669009CED1F /* Sign.swift in Sources */,
 				29F561D0249E054E009CED1F /* AppDelegate.swift in Sources */,
 				29F561D2249E054E009CED1F /* SceneDelegate.swift in Sources */,
 			);
